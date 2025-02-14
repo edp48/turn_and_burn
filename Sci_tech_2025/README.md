@@ -2,7 +2,7 @@ This folder contains all the files needed to reproduce the Data Presented in my 
 
 Scitech_presentation2025.pdf: A pdf copy of the Presentation
 
-\textbf{Exhaust_Prop}: A Folder that contains the .mat and .m files needed to create all the figures associated with the case study that exhausted all of the spacecraft's propellant.
+Exhaust_Prop: A Folder that contains the .mat and .m files needed to create all the figures associated with the case study that exhausted all of the spacecraft's propellant.
 
 Fixed_Eccent: A Folder that contains the .mat and .m files needed to create all the figures associated with the case study that halts numerical integration when a threshold on eccentricity is reached.
 
