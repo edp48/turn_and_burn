@@ -8,6 +8,8 @@ Fixed_Eccent: A Folder that contains the .mat and .m files needed to create all 
 
 Other_Plots: A Folder that contains scripts to create the rest of the plots in the paper/presentation. 
 
+Link to the publication: https://doi.org/10.2514/6.2025-0087
+
 
 
 NOTES: You must have NAIF's Spice package for MATLAB MICE installed for this to work. The startup.m script in the parent folder helps get the appropriate paths established. This Code was written and tested in MATLAB 2024a and is not guaranteed to work on other versions.
