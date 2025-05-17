@@ -9,7 +9,7 @@ Goals of this work:
 Current State:
  - Optimization is working and produces results. This requires that you NAIF's spice toolkit installed, as well as OptimTraj and Chebfun downloaded (instructions for the Chebfun are in Matthew Kelly's documentation
 
-- There are 3 scripts in the folder that are useful. The first is a Lambert Solver set to run for the same set of parameters as the turn-and-burn style case. The second "Orbit_Raising_Main" provides a one shot optimization of a single trajectory. The last "Orbit_Raising_Cont" does a continuation analysis on the system, and will increase the thrust level of the spacecraft to start to assemble solutions in the thrust phase space. 
+- There are 4 scripts in the folder that are useful. The first is a Lambert Solver set to run for the same set of parameters as the turn-and-burn style case. The second "Orbit_Raising_Main" provides a one shot optimization of a single trajectory. The last two, "Orbit_Raising_Cont_set1" and "Orbit_raising_cont_set2" do continuation analysis on the system, and will increase the thrust level of the spacecraft to start to assemble solutions in the thrust phase space. The two files are for two different thrust levels
 
 *Notes*
 - This is a work in progress, and the Lambert solver output on the Delta V comparison graphs are not optimal at the moment, as that DV cost is higher than it should be. 
